@@ -1,4 +1,3 @@
-import AboutMeImg from '../images/aboutMe2.jpg'
 import DiplomaImg from '../images/diploma.jpg'
 import './AboutMe.scss'
 const AboutMe = () => {
@@ -14,10 +13,9 @@ const AboutMe = () => {
                         </div>
                         <div className='about_me'>
                             <h2>About Me</h2>
-                            <p className='desc'>I am a web developer with a background in JavaScript and C# .Net core framework. 
-                                I have a degree in computer science and I'm currently working as a developer. 
-                                I am passionate about building functional websites that provide a seamless user experience.
-                                In my spare time, I enjoy staying up-to-date with the latest developments in web technologies and exploring new frameworks and libraries.
+                            <p className='desc'>Welcome to my portfolio website! I'm a web and mobile application developer experienced in creating innovative solutions.
+                            I specialize in building web and mobile apps using React, Angular, and Flutter. I'm also proficient in Node.js, Nest framework, C#, and .NET Core API.
+                            
                             </p>          
                         </div>
                         

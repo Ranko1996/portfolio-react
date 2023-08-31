@@ -1,15 +1,10 @@
 import "./Accordion.scss"
-
-import beer from "../images/beer.jpg"
 import flutterImg from "../images/flutterDevelop2.jpg"
 import webDevelopment from "../images/webDevelopment.jpg"
 import angular from "../images/angular.jpg"
 import netCore from "../images/netCore.jpg"
 import node from "../images/node.jpg"
-import reactJs from "../images/reactJs.jpg"
-import beerLogo from "../images/svg/beer-sprit.svg"
 
-import BeerIcon from '../images/svg/beer.js'
 import React, { useRef, useState, useEffect } from 'react';
 
 const Accordion = () => {
@@ -115,10 +110,9 @@ const Accordion = () => {
         ];
 
         return panels.map((panel, index) => (
-            <div className="accordion-panel" key={index}>
-                <h2 id={`panel${index + 1}-heading`}>
+            <div className="accordion-panel" key={index} onClick={() => toggleAccordion(index)}>
+                <h2 id={`panel${index + 1}-heading`} >
                     <button
-                        onClick={() => toggleAccordion(index)}
                         className="accordion-trigger"
                         aria-controls={`panel${index + 1}-content`}
                         aria-expanded={index === activePanel}

@@ -1,14 +1,12 @@
 import './App.scss';
-import headerImg from './images/headerImg.jpg';
-import recipesImg from './images/Recipes.png';
 import QR_code from './images/QR_code.png';
 import flutterImg from './images/flutterApp.PNG';
 import netCoreApiImg from './images/netCore.png';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import AboutMe from './components/AboutMe';
+import designFlutter from './images/desig_news_app.png'
 
-import { useInView } from 'react-intersection-observer';
 import Accordion from './components/Accordion';
 
 function App() {
@@ -85,12 +83,12 @@ function App() {
           <div className='feature'>
             <div className='content'>
               <p className='title'>.NET6 web API</p>
-              <p className='desc'>Hotel listing API made with C# programming language. Basic API with CRUD operations and JWT authentification</p>
-              <a href="https://github.com/Ranko1996/HotelListingAPI.NET6" target="_blank">
+              <p className='desc'>News app - design made in flutter</p>
+              <a href="https://github.com/Ranko1996/news_flutter" target="_blank">
                 Github repo
               </a>
             </div>
-            <img src={netCoreApiImg} className="project-image" alt="projekt" />
+            <img src={designFlutter} className="project-image" alt="projekt" />
           </div>
       </section>
       <div id="about_section">
